@@ -47,6 +47,15 @@ header::after {
     margin-top: 10px;
     color: rgb(114, 152, 216);
 }
+#maude {
+    width: 200px;
+   
+    position: absolute;
+    margin: 0;
+    right: 200px;
+    bottom: 280px;
+
+}
 a:link {
     color: rgb(29, 29, 29);
 }
@@ -68,10 +77,10 @@ a:hover {
 #box-2 {
     clear: both;
     overflow: auto;
-    background: rgb(220, 243, 247);
+    position: relative;
+   
     width: 80%;
-    margin: 0 auto;
-    clear: left;
+    margin-left: 100px;
     padding: 20px;
     height:300px;
 }
@@ -86,11 +95,12 @@ a:hover {
     height:300px;
 }
 .form {
-    background: antiquewhite;
+    background: rgb(220, 243, 247);
     float: center;
     margin: 0 auto;
-    width: 60%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
+    font-size: 36px;
 }
 #pic {
     width: 200px;
@@ -112,10 +122,16 @@ p {
     color: rgb(114, 152, 216);
     padding: 20px;
     margin: 20px;
+    width: 100px;
+    height: 50px;
+    float: left;
 }
 .instagram {
     background: antiquewhite;
     color: rgb(114, 152, 216);
     padding: 20px;
     margin: 20px;
+    width: 100px;
+    height: 50px;
+    float: left;
 }
