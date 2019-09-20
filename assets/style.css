@@ -49,7 +49,6 @@ header::after {
 }
 #maude {
     width: 200px;
-   
     position: absolute;
     margin: 0;
     right: 200px;
@@ -144,4 +143,16 @@ p {
 
 .ig {
     width: 200px;
+}
+.copyright {
+    background: rgb(114, 152, 216);
+    margin-top: 10px;
+    width: 80%;
+    padding: 20px;
+    margin-left: 110px;
+    text-align: center;
+  
+    position: sticky;
+    top: 0;
+
 }
