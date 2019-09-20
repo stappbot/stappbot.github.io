@@ -1,3 +1,6 @@
+* {
+    text-decoration: none;
+}
 body {
     background-image: url("Triangles.jpg");
     background-repeat: repeat;
@@ -7,15 +10,18 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin-right: 0;
     padding-top: 20px;
     text-align: center;
   }
-li {
+nav li {
     display: inline;
+    margin: 10px;
+
   }
+
 #name {
     float: left;
     background: rgb(114, 152, 216);
@@ -40,7 +46,7 @@ header::after {
     float: right;
     background: antiquewhite;
     color: rgb(114, 152, 216);
-    
+    text-decoration: none;
     margin-right: 120px;
     width: 300px;
     height: 70px;
@@ -150,7 +156,7 @@ p {
     margin-top: 10px;
     width: 80%;
     padding: 20px;
-    margin-left: 110px;
+    margin-left: 115px;
     text-align: center;
     position: sticky;
     top: 0;
