@@ -1,6 +1,4 @@
-* {
-    text-decoration: none;
-}
+
 body {
     background-image: url("Triangles.jpg");
     background-repeat: repeat;
@@ -60,6 +58,9 @@ header::after {
     right: 200px;
     bottom: 280px;
 
+}
+a {
+    text-decoration: none;
 }
 a:link {
     color: rgb(29, 29, 29);
@@ -160,4 +161,54 @@ p {
     text-align: center;
     position: sticky;
     top: 0;
+}
+
+@media screen and (max-width: 890px) {
+    body {
+        background-color: lightgrey;
+        padding: 20px;
+        margin: 0 20px 0 20px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    #first-box, #navigation, #copyright, {
+        width: 90%;
+        padding: 20px;
+        margin: 0 20px 0 20px;
+    }
+    .box-2 {
+        width: 90%;
+        height: 400px;
+        padding: 20px;
+        margin: 0 20px 0 20px;
+    }
+    #maude {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        background-color: lightgrey;
+        padding: 20px;
+        margin: 0 20px 0 20px;
+        color: dark rgb(97, 88, 88);
+    }
+    .box, .box-2, .box-3, .container,  {
+        width: 100%;
+        margin: 20px 20px 0 20px;
+        padding: 20px;
+        
+    }
+    #first-box, #navigation, #copyright, {
+        width: 100%;
+        margin: 20px 20px 0 20px;
+        padding: 20px;
+    }
 }
